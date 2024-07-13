@@ -1,20 +1,19 @@
 {
-  "name": "xcy-blog",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "xxiaobai-ran.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc -b && vite build",
-    "preview": "vite preview"
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
-  "dependencies": {
-    "vue": "^3.4.29"
-  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.0.5",
-    "typescript": "^5.2.2",
-    "vite": "^5.3.1",
-    "vue-tsc": "^2.0.21"
+    "@vuepress/bundler-vite": "2.0.0-rc.14",
+    "@vuepress/theme-default": "2.0.0-rc.37",
+    "vue": "^3.4.31",
+    "vuepress": "2.0.0-rc.14"
   }
 }
