@@ -2,7 +2,7 @@ export const redirects = JSON.parse("{\"/Algorithm/Divide&Conquer.html\":\"/Algo
 
 export const routes = Object.fromEntries([
   ["/", { loader: () => import(/* webpackChunkName: "index.html" */"/Users/xiongcanyanng/Desktop/个人博客/xxiaobai-ran.github.io/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":"Hello VuePress"} }],
-  ["/Algorithm/Divide_Conquer.html", { loader: () => import(/* webpackChunkName: "Algorithm_Divide_Conquer.html" */"/Users/xiongcanyanng/Desktop/个人博客/xxiaobai-ran.github.io/docs/.vuepress/.temp/pages/Algorithm/Divide_Conquer.html.js"), meta: {"title":""} }],
+  ["/Algorithm/Divide_Conquer.html", { loader: () => import(/* webpackChunkName: "Algorithm_Divide_Conquer.html" */"/Users/xiongcanyanng/Desktop/个人博客/xxiaobai-ran.github.io/docs/.vuepress/.temp/pages/Algorithm/Divide_Conquer.html.js"), meta: {"title":"11111"} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"/Users/xiongcanyanng/Desktop/个人博客/xxiaobai-ran.github.io/docs/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
 ]);
 

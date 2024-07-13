@@ -20,6 +20,24 @@ export default defineUserConfig({
                 ],
             },
         ],
+        sidebar: [
+            {
+                text: '前言',
+                collapsible: false,
+                children: [
+                    { text: '内容介绍' },
+                    { text: '使用指南' }
+                ]
+            },
+            {
+                text: '算法学习',
+                link: '/Algorithm/Divide&Conquer',
+                collapsible: false,
+                children: [
+                    { text: '分治法', link: '/Algorithm/Divide&Conquer' }
+                ],
+            }
+        ]
     }),
  
     lang: 'zh-CN',
